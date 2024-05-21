@@ -1,6 +1,4 @@
 def is_palindrome(s):
-    # Convert the string to lowercase and remove non-alphanumeric characters
-    # s = ''.join(char.lower() for char in s if char.isalnum())
     length = len(s)
     for y in range(length // 2):  # Only iterate up to half the length of the string
         if s[y] != s[length - 1 - y]:
